@@ -46,6 +46,7 @@
   ** **`PUT`
 
 * **Request**
+
   ```js
   {
     'station_id':'xxxx', //工位编号
@@ -58,6 +59,7 @@
     'map_latitude':'193.3' //工位 纬度
   }
   ```
+
 * **Response**
   ```js
   {
@@ -84,6 +86,7 @@
   ** **`POST`
 
 * **Request**
+
   ```js
   {
     "station_id":"xxxx",
@@ -94,6 +97,7 @@
     "remark":"remark"
   }
   ```
+
 * **Response**
   ```js
   {
@@ -113,6 +117,7 @@
   ** **`PUT`
 
 * **Request**
+
   ```js
   {
   "bookinguser":"xxxx",
@@ -122,6 +127,7 @@
   "remark":"remark"
   }
   ```
+
 * **Response**
   ```js
   {
@@ -164,12 +170,14 @@
 
   ### 删除流动工位
 
-* **Uri:**
+* **Uri:**  
   `/station/station_id/{station_id}/`
-* **Methon:**
+
+* **Methon:**  
   ** **`DEL`
 
 * **Response**
+
   ```js
   {
   "code": 200,
